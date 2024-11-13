@@ -40,7 +40,7 @@ const Navbar = () => {
             </div>
                 <ul className="md:flex gap-4 hidden">
                     {
-                        Menu.map((item, index) => (
+                        Menu.map((item) => (
                             <Link href={item.path}>
                             <li className="hover:text-primary cursor-pointer hover:scale-105 transition-all ease-in-out">{item.name}</li>
                             </Link>
@@ -48,7 +48,8 @@ const Navbar = () => {
                     }
 
                 </ul>
-            <Button>Login</Button>
+            {/* <Button>Login</Button> */}
+            <Button>Appointment</Button>
 
         </div>
     );

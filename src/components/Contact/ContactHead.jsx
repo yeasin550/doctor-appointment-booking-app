@@ -15,7 +15,7 @@ const ContactHead = () => {
             <div className="flex items-center justify-around gap-4 text-center">
                 {/* Card 1 */}
                 <div className="flex flex-col items-center p-4 rounded-lg w-full md:w-96 space-y-3">
-                    <FaPhoneAlt className="bg-gray-200 text-[#305CCC] p-4 rounded-full text-6xl" />
+                    <FaPhoneAlt className="bg-gray-200 hover:bg-gray-100 hover:border border-black text-[#305CCC] p-4 rounded-full text-6xl" />
                     <h2 className="text-xl font-semibold">Phone</h2>
                     <p className="">Great doctor if you need your family member to get effective assistance</p>
                     <p className="">+8801234567890</p>
@@ -23,7 +23,7 @@ const ContactHead = () => {
 
                 {/* Card 2 */}
                 <div className="flex flex-col items-center p-4 rounded-lg w-full md:w-96 space-y-3">
-                    <MdEmail className="bg-gray-200 text-[#305CCC] p-4 rounded-full text-6xl" />
+                    <MdEmail className="bg-gray-200 hover:bg-gray-100 hover:border border-black text-[#305CCC] p-4 rounded-full text-6xl" />
                     <h2 className="text-xl font-semibold">Email</h2>
                     <p className="">Great doctor if you need your family member to get effective assistance</p>
                     <p className="">health@doctor.com</p>
@@ -31,8 +31,8 @@ const ContactHead = () => {
 
                 {/* Card 3 */}
                 <div className="flex flex-col items-center p-4 rounded-lg w-full md:w-96 space-y-3">
-                    <FaLocationDot className="bg-gray-200 text-[#305CCC] p-4 rounded-full text-6xl" />
-                    <h2 className="text-xl font-semibold">Treatment</h2>
+                    <FaLocationDot className="bg-gray-200 hover:bg-gray-100 hover:border border-black text-[#305CCC] p-4 rounded-full text-6xl" />
+                    <h2 className="text-xl font-semibold">Location</h2>
                     <p className="">Great doctor if you need your family member to get effective assistance</p>
                     <p className="">Dhaka Bangladesh</p>
                 </div>
