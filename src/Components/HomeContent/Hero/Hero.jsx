@@ -74,7 +74,7 @@ const Hero = () => {
                 </div>
         
                 <div className="flex flex-col gap-3 justify-center items-center p-5 rounded-md border border-gray-300 text-center md:w-64 hover:bg-[#ddc3d3]">
-                    <img src={service6} alt="logo" width={70} height={70} className="bg-[#ddc3d3] p-3 rounded-full"/>
+                    <img src={service6} alt="logo" width={70} height={70} className="bg-[#ddc3d3] py-3 px-4 rounded-full"/>
                     <h1>  Talk to Doctors</h1> 
                 </div>
                 <div className="flex flex-col gap-3 justify-center items-center p-5 rounded-md border border-gray-300 text-center md:w-64 hover:bg-[#FFEADF]">
